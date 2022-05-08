@@ -252,6 +252,7 @@ export default function BalancesList() {
                 </IconButton>
               </Tooltip>
             )}
+            
           {/* <Tooltip title="Deposit via FTX Pay" arrow>
             <IconButton
               size={iconSize}
@@ -273,6 +274,17 @@ export default function BalancesList() {
               <DnsIcon />
             </IconButton>
           </Tooltip> */}
+
+        <Tooltip title="But Cocucoin">
+        <a href="https://jup.ag/swap/SOL-COCU" style={{
+          color: '#fff',
+          textDecoration: 'none',
+          fontSize: '1.2rem',
+          fontWeight: 'bold',
+          }}>
+          But Cocucoin
+          </a>
+      </Tooltip>
           <DomainsList open={showDomains} setOpen={setShowDomains} />
           {region.result && !region.result.isRestricted && <SwapButton size={iconSize} />}
           <Tooltip title="Migrate Tokens" arrow>
