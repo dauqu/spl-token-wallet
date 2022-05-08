@@ -37,11 +37,16 @@ function SwapButtonDialog({ size }) {
   const provider = new NotifyingProvider(connection, wallet, sendTransaction);
   return (
     <>
-      {/* <Tooltip title="Swap Tokens">
-        <IconButton size={size} onClick={() => setDialogOpen(true)}>
-          <SwapHoriz />
-        </IconButton>
-      </Tooltip> */}
+      <Tooltip title="But Cocucoin">
+        <a href="https://jup.ag/swap/SOL-COCU" style={{
+          color: '#fff',
+          textDecoration: 'none',
+          fontSize: '1.2rem',
+          fontWeight: 'bold',
+        }}>
+          But Cocucoin
+        </a>
+      </Tooltip>
       <DialogForm
         open={dialogOpen}
         onClose={() => setDialogOpen(false)}
