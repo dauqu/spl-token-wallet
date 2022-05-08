@@ -37,7 +37,7 @@ function SwapButtonDialog({ size }) {
   const provider = new NotifyingProvider(connection, wallet, sendTransaction);
   return (
     <>
-      <Tooltip title="But Cocucoin">
+      <Tooltip title="Buy Cocucoin">
         <a href="https://jup.ag/swap/SOL-COCU" style={{
           color: '#fff',
           textDecoration: 'none',

@@ -275,7 +275,7 @@ export default function BalancesList() {
             </IconButton>
           </Tooltip> */}
 
-        <Tooltip title="But Cocucoin">
+        <Tooltip title="Buy Cocucoin">
         <a href="https://jup.ag/swap/SOL-COCU" target="_blank" style={{
           color: '#fff',
           textDecoration: 'none',
