@@ -37,11 +37,11 @@ function SwapButtonDialog({ size }) {
   const provider = new NotifyingProvider(connection, wallet, sendTransaction);
   return (
     <>
-      <Tooltip title="Swap Tokens">
+      {/* <Tooltip title="Swap Tokens">
         <IconButton size={size} onClick={() => setDialogOpen(true)}>
           <SwapHoriz />
         </IconButton>
-      </Tooltip>
+      </Tooltip> */}
       <DialogForm
         open={dialogOpen}
         onClose={() => setDialogOpen(false)}
@@ -84,11 +84,11 @@ function SwapButtonPopover({ size }) {
       <PopupState variant="popover">
         {(popupState) => (
           <div style={{ display: 'flex' }}>
-            <Tooltip title="Swap Tokens">
+            {/* <Tooltip title="Swap Tokens">
               <IconButton {...bindTrigger(popupState)} size={size}>
                 <SwapHoriz />
               </IconButton>
-            </Tooltip>
+            </Tooltip> */}
             <Popover
               {...bindPopover(popupState)}
               anchorOrigin={{

@@ -252,7 +252,7 @@ export default function BalancesList() {
                 </IconButton>
               </Tooltip>
             )}
-          <Tooltip title="Deposit via FTX Pay" arrow>
+          {/* <Tooltip title="Deposit via FTX Pay" arrow>
             <IconButton
               size={iconSize}
               onClick={() => setShowFtxPayDialog(true)}
@@ -267,12 +267,12 @@ export default function BalancesList() {
                 src={ftxPayIcon}
               />
             </IconButton>
-          </Tooltip>
-          <Tooltip title="See your domains" arrow>
+          </Tooltip> */}
+          {/* <Tooltip title="See your domains" arrow>
             <IconButton size={iconSize} onClick={() => setShowDomains(true)}>
               <DnsIcon />
             </IconButton>
-          </Tooltip>
+          </Tooltip> */}
           <DomainsList open={showDomains} setOpen={setShowDomains} />
           {region.result && !region.result.isRestricted && <SwapButton size={iconSize} />}
           <Tooltip title="Migrate Tokens" arrow>
