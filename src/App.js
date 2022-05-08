@@ -128,7 +128,7 @@ function WalletSuggestionDialog({ open, onClose, onIgnore }) {
   const classes = useStyles();
   return (
     <DialogForm open={open} onClose={onClose} fullWidth>
-      <DialogTitle>Looking for a Wallet?</DialogTitle>
+      {/* <DialogTitle>Looking for a Wallet?</DialogTitle>
       <DialogContent>
         <Typography>
           Sollet is an{' '}
@@ -218,7 +218,7 @@ function WalletSuggestionDialog({ open, onClose, onIgnore }) {
         <Button type="submit" color="primary" onClick={onClose}>
           Ok
         </Button>
-      </DialogActions>
+      </DialogActions> */}
     </DialogForm>
   );
 }
